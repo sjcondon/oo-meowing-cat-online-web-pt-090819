@@ -1,8 +1,8 @@
 ## code your solution here. 
-class cat
+class Cat
     attr_accessor :meow
-    jay_z = Person.new
-    jay_z.meow = "meow!"
-    jay_z.meow
-  
- 
+    noise = Cat.new
+    noise.meow = "meow!"
+    noise.meow
+  end
+end
