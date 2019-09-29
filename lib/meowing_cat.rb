@@ -1,4 +1,6 @@
-class Person
+class Cat
+  
+  
   def initialize(name)
     @name = name
   end
