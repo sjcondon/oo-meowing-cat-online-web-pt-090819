@@ -5,4 +5,4 @@ maru.meow = "meow!"
 maru.meow
 end
  
-maru.meow
+puts "meow!"
