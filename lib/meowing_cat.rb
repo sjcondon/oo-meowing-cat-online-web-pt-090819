@@ -3,6 +3,14 @@ class Cat
 attr_accessor :meow
 end
 
+maru = Cat.new
+maru.name = "Maru"
+ 
+maru.name
+maru.meow
+
+end
+
 def meow
 @meow
 end
