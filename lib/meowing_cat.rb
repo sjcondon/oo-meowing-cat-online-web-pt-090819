@@ -10,4 +10,5 @@ end
  
   def meow=(meow)
 @meow = meow
+puts "meow!"
 end 
