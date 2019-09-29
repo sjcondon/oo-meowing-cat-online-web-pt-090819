@@ -1,23 +1,19 @@
 class Cat
 attr_accessor :name
-def name=(cat_name)
-    @name = cat_name
-  attr_accessor :name
- end
 
-  def name
-    @name
-  end 
-end 
+ def initialize(name)
+    @name = name
+  end
 
-class Cat
   def meow
-    puts "meow!"
-  end 
-end 
+    'meow'
+  end
 
-maru = Cat.new
-maru.name = "Maru"
+  def receive_love
+    self.meow
+  end
+end
+
 
 
   
