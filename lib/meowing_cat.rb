@@ -1,24 +1,12 @@
-## code your solution here. 
-
-
-class Cat
-attr_accessor :name
-end
-
-maru = Cat.new
-maru.name = "Maru"
+class Person
+  def initialize(name)
+    @name = name
+  end
  
-maru.name
-maru.meow
-
-end
-
-def meow
-@meow
+  def name
+    @name
+  end
 end
  
- 
-  def meow=(meow)
-@meow = meow
-puts "meow!"
-end 
+kanye = Person.new("Kanye")
+kanye.name
