@@ -3,6 +3,9 @@ class Cat
 maru.name = "Maru"
   maru.name
   
+   def name=(dogs_name)
+    @name = dogs_name
+  end
   attr_accessor :name
   
 end
