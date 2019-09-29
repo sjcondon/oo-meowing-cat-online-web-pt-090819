@@ -7,9 +7,3 @@ def meow
 @meow
 end
   
-  
-  def cat (meow)
-  cat.meow
-  puts "meow!"
-end
- end
