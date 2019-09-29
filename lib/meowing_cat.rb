@@ -1,10 +1,6 @@
 class Cat
-  maru = Cat.new
-maru.name = "Maru"
-  maru.name
-  
-   def name=(dogs_name)
-    @name = dogs_name
+def name=(cat_name)
+    @name = cat_name
   end
   attr_accessor :name
   
