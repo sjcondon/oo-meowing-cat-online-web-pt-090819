@@ -6,21 +6,12 @@ def name=(cat_name)
   
 end
 
- def meow=(meow)
-@meow = meow
-end
-maru.name
-maru.meow
-puts "meow!"
+  def name
+    @name
+  end 
+end 
 
-fido = Dog.new
-fido.name = "Fido"
- 
-fido.name
-# => "Fido"
- 
-fido.bark
-woof!
+
 
 
   
