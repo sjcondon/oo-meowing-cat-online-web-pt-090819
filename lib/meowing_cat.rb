@@ -1,9 +1,9 @@
 ## code your solution here. 
 class Cat
 maru = Cat.new
-maru.name = "Maru"
+maru.meow = "meow!"
  
-maru.name
+maru.meow
 end
  
 maru.meow
