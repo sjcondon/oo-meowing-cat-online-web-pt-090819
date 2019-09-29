@@ -15,5 +15,5 @@ maru.meow
   end
 end
  
-kanye = Person.new("Kanye")
-kanye.name
+meow = Cat.new("meow!")
+meow.name
