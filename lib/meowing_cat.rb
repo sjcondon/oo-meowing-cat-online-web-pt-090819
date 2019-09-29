@@ -8,3 +8,4 @@ class Cat
     noise.meow
   end
 end
+end
