@@ -6,3 +6,4 @@ maru.meow
 end
  
 puts "meow!"
+end
