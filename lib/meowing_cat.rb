@@ -5,7 +5,7 @@ class Cat
   end
     noise = Cat.new
     noise.meow = "meow!"
-    noise.meow
+    
   end
 end
-end
+noise.meow
