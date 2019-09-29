@@ -4,6 +4,6 @@ maru = Cat.new
 maru.name = "Maru"
  
 maru.name
-# => "Maru"
+end
  
 maru.meow
