@@ -6,5 +6,4 @@ maru.meow = "meow!"
 maru.meow
   puts "meow!"
 end
- 
-end
+ end
