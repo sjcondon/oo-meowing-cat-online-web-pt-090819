@@ -5,9 +5,12 @@ class Cat
   
 end
 
-def meow
-@meow
+ def meow=(meow)
+@meow = meow
 end
+
+maru.meow
+puts "meow!"
 
 
   
